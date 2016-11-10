@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		033158F31DD4251C003F5AC6 /* NSObject+RateLimiting.m in Sources */ = {isa = PBXBuildFile; fileRef = 033158F21DD4251C003F5AC6 /* NSObject+RateLimiting.m */; };
+		033159021DD44BEC003F5AC6 /* MSDebounce.h in Headers */ = {isa = PBXBuildFile; fileRef = 033159001DD44BEC003F5AC6 /* MSDebounce.h */; };
+		033159031DD44BEC003F5AC6 /* MSDebounce.m in Sources */ = {isa = PBXBuildFile; fileRef = 033159011DD44BEC003F5AC6 /* MSDebounce.m */; };
 		0F0B4EB908FD8263524EBD05BA8101BD /* NSObject-RateLimiting-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 177A651EF2AA63153B9958044B0CA861 /* NSObject-RateLimiting-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3E11570AFD1A34BA15A49C0964B3AF15 /* Pods-NSObject-RateLimiting_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C13814DD0C8EC28560126E04C7F38F0 /* Pods-NSObject-RateLimiting_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		56FF2EF354C3C0DDA0E828CBF12221AD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
@@ -28,6 +30,8 @@
 
 /* Begin PBXFileReference section */
 		033158F21DD4251C003F5AC6 /* NSObject+RateLimiting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+RateLimiting.m"; sourceTree = "<group>"; };
+		033159001DD44BEC003F5AC6 /* MSDebounce.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSDebounce.h; sourceTree = "<group>"; };
+		033159011DD44BEC003F5AC6 /* MSDebounce.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSDebounce.m; sourceTree = "<group>"; };
 		0DDF3C338A1582F113CF6FFFD30DC55E /* Pods-NSObject-RateLimiting_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NSObject-RateLimiting_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		0FB3D03E3B8E37F06DDCE22E41B90351 /* NSObject-RateLimiting.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "NSObject-RateLimiting.modulemap"; sourceTree = "<group>"; };
 		177A651EF2AA63153B9958044B0CA861 /* NSObject-RateLimiting-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSObject-RateLimiting-umbrella.h"; sourceTree = "<group>"; };
@@ -145,6 +149,8 @@
 			isa = PBXGroup;
 			children = (
 				033158F21DD4251C003F5AC6 /* NSObject+RateLimiting.m */,
+				033159001DD44BEC003F5AC6 /* MSDebounce.h */,
+				033159011DD44BEC003F5AC6 /* MSDebounce.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -188,6 +194,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0F0B4EB908FD8263524EBD05BA8101BD /* NSObject-RateLimiting-umbrella.h in Headers */,
+				033159021DD44BEC003F5AC6 /* MSDebounce.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,6 +285,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				033158F31DD4251C003F5AC6 /* NSObject+RateLimiting.m in Sources */,
+				033159031DD44BEC003F5AC6 /* MSDebounce.m in Sources */,
 				AE9E287371D1A88C0A31D4EA965582E8 /* NSObject-RateLimiting-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
