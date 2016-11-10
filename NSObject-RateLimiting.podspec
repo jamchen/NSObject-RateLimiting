@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'NSObject-RateLimiting'
-  s.version          = '0.1.0'
+  s.version          = '0.2.0'
   s.summary          = 'Adds 2 category methods to NSObject to support rate limiting to method calls: throttle and debounce'
 
 # This description is used to generate tags and improve search results.
